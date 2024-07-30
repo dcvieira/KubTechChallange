@@ -1,13 +1,12 @@
-# GloboTicket Demo Application
+# KubTechChallange Demo Application
 
-This application is intended to demonstrate how to deploy an ASP.NET core application to Kubernetes.
-It is the demo project for the Pluralsight courses: ASP.NET Core 6 and Kubernetes by Marcel de Vries (https://www.pluralsight.com/courses) 
+Aplicação de entrega do Tech Challange fase 5 - FIAP - Arquitetura de Sistemas .NET com Azure
 
-## Globoticket website
-The globoticket website looks as follows when used:
-![website screenshot](images/website-screenshot.png)
+## O Problema
+O Tech Challange desta fase será a publicação do seu projeto em um cluster Kubernetes.
 
-The website offers a way to buy tickets. You can select the quantity and check out.
+A proposta deste Tech Challenge é elaborar um arquivo Dockerfile para o seu projeto e realizar sua publicação dentro de um cluster Kubernetes. Este projeto não precisa ser publicado no AKS, pode ser um cluster local. 
+
 
 ## Globoticket Architecture
 Globoticket uses two additional web api projects that provide an APIfor getting the 
