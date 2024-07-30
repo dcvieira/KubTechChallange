@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "local-k8s", "local-k8s", "{
 		demos\local-k8s\service-account.yaml = demos\local-k8s\service-account.yaml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Globoticket", "Globoticket", "{5ED268EC-2F53-476E-8892-3AC2C4D0D67D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{5ED268EC-2F53-476E-8892-3AC2C4D0D67D}"
 	ProjectSection(SolutionItems) = preProject
 		demos\local-k8s\catalog.yaml = demos\local-k8s\catalog.yaml
 		demos\local-k8s\frontend.yaml = demos\local-k8s\frontend.yaml
