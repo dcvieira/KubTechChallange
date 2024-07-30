@@ -13,7 +13,7 @@ Globoticket uses two additional web api projects that provide an APIfor getting 
 catalog data and for registering the order when the order is completed.
 this is shown in this architectural diagram below:
 
-![architectural diagram](images/globoticket-architecture.png)
+![architectural diagram](images/Arch_1.jpg)
 
 ## Kubernetes deploymens
 The course will take a step by step apporach to deploy this application first using containers
