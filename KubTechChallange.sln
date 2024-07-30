@@ -18,17 +18,13 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "local-k8s", "local-k8s", "{3930433A-017E-47D6-AFFC-F102963940A7}"
 	ProjectSection(SolutionItems) = preProject
-		demos\local-k8s\cluster-role-binding.yml = demos\local-k8s\cluster-role-binding.yml
-		demos\local-k8s\dashboard.txt = demos\local-k8s\dashboard.txt
-		demos\local-k8s\service-account.yaml = demos\local-k8s\service-account.yaml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{5ED268EC-2F53-476E-8892-3AC2C4D0D67D}"
-	ProjectSection(SolutionItems) = preProject
-		demos\local-k8s\catalog.yaml = demos\local-k8s\catalog.yaml
-		demos\local-k8s\frontend.yaml = demos\local-k8s\frontend.yaml
-		demos\local-k8s\ordering.yaml = demos\local-k8s\ordering.yaml
-		demos\local-k8s\sqlserver.yaml = demos\local-k8s\sqlserver.yaml
+		kub\local-k8s\catalog.yaml = kub\local-k8s\catalog.yaml
+		kub\local-k8s\cluster-role-binding.yml = kub\local-k8s\cluster-role-binding.yml
+		kub\local-k8s\dashboard.txt = kub\local-k8s\dashboard.txt
+		kub\local-k8s\frontend.yaml = kub\local-k8s\frontend.yaml
+		kub\local-k8s\ordering.yaml = kub\local-k8s\ordering.yaml
+		kub\local-k8s\service-account.yaml = kub\local-k8s\service-account.yaml
+		kub\local-k8s\sqlserver.yaml = kub\local-k8s\sqlserver.yaml
 	EndProjectSection
 EndProject
 Global
@@ -59,7 +55,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3930433A-017E-47D6-AFFC-F102963940A7} = {26E30656-0182-4EEF-B89E-281F23389C42}
-		{5ED268EC-2F53-476E-8892-3AC2C4D0D67D} = {3930433A-017E-47D6-AFFC-F102963940A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9F232D3-5386-4E57-B49F-7AF54A4A8843}
